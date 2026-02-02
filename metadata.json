@@ -1,0 +1,7 @@
+{
+  "name": "Khana Kia Banay",
+  "description": "A beautiful and intuitive meal planning app that helps you manage your favorite dishes, schedule your weekly meals, and uses AI to suggest what to cook today based on your preferences.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

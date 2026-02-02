@@ -1,0 +1,47 @@
+{
+  "short_name": "KhanaBanay",
+  "name": "Khana Kia Banay: Smart Meal Planner",
+  "description": "The ultimate kitchen companion to help you decide what to cook using AI suggestions and your personal dish library.",
+  "icons": [
+    {
+      "src": "https://picsum.photos/seed/foodapp/192/192",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://picsum.photos/seed/foodapp/512/512",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "background_color": "#fcfcfc",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#ea580c",
+  "orientation": "portrait",
+  "categories": ["food", "lifestyle", "utilities"],
+  "shortcuts": [
+    {
+      "name": "What to cook?",
+      "url": "/suggest",
+      "description": "Get an AI suggestion immediately"
+    },
+    {
+      "name": "Weekly Plan",
+      "url": "/planner",
+      "description": "View your meal schedule"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://picsum.photos/seed/screenshot1/540/720",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "App Home Screen"
+    }
+  ]
+}
